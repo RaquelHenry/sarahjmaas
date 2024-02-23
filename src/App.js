@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
+import { Container, Navbar, NavbarBrand } from 'reactstrap';
 
 function App() {
   return (
     <div className="App">
-      hello nucamp!
+      <Navbar dark color='primary' sticky='top' expand='md'>
+        <Container></Container>
+      </Navbar>
+      creating a website for sarah j maas as a personal project
     </div>
   );
 }
